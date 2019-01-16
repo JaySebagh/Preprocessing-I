@@ -139,6 +139,10 @@ body {
   margin-left: 25%;
   margin-right: 25%;
 }
+.name {
+  font-weight: bold;
+  color: darkblue;
+}
 a,
 .link {
   color: #428bca;
@@ -183,6 +187,7 @@ a,
 }
 .bio-title {
   font-size: 30px;
+  color: maroon;
   padding: 10px;
   margin: 20px;
 }
@@ -192,6 +197,7 @@ a,
 }
 .info-title {
   font-size: 30px;
+  color: maroon;
   padding: 10px;
   margin: 20px;
   text-align: center;
@@ -202,6 +208,7 @@ a,
 }
 .work-title {
   font-size: 30px;
+  color: maroon;
   padding: 10px;
   margin: 20px;
 }
@@ -211,6 +218,7 @@ a,
 }
 .contact-title {
   font-size: 30px;
+  color: maroon;
   padding: 10px;
   margin: 20px;
 }
@@ -221,4 +229,38 @@ address {
 .copyright {
   text-align: center;
   margin: 20px;
+}
+@media (max-width: 500px) {
+  .everything {
+    padding: 5px;
+    margin: 5px;
+  }
+  .pfp {
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+    height: 250px;
+  }
+  .bio {
+    padding: 5px;
+    margin: 5px;
+  }
+  .info {
+    padding: 5px;
+    margin: 5px;
+  }
+  .bio-text {
+    padding: 5px;
+    margin: 5px;
+  }
+  .bio-title {
+    padding: 5px;
+    margin: 5px;
+  }
+  .work {
+    text-align: center;
+  }
+  .end-container {
+    text-align: center;
+  }
 }
