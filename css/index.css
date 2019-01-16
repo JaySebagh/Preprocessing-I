@@ -134,3 +134,22 @@ html,
 body {
   height: 100%;
 }
+.everything {
+  border: 1px solid red;
+  max-width: 1000px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+a,
+.link {
+  color: #428bca;
+}
+.nav-menu a {
+  margin: 10px;
+  padding: 20px;
+}
+.pfp {
+  width: 450px;
+  height: 500px;
+  margin: 20px 0;
+}
