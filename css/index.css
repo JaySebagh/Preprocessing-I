@@ -135,7 +135,6 @@ body {
   height: 100%;
 }
 .everything {
-  border: 1px solid red;
   max-width: 1000px;
   margin-left: 25%;
   margin-right: 25%;
@@ -174,15 +173,12 @@ a,
   border-bottom: 3px solid black;
 }
 .bio {
-  border: 1px solid red;
   max-width: 60%;
 }
 .info {
-  border: 1px solid red;
   margin-left: 100px;
 }
 .body-container {
-  border: 1px solid blue;
   display: flex;
 }
 .bio-title {
@@ -203,4 +199,26 @@ a,
 .list {
   text-align: center;
   padding: 10px;
+}
+.work-title {
+  font-size: 30px;
+  padding: 10px;
+  margin: 20px;
+}
+.work-list {
+  padding: 10px;
+  margin: 20px;
+}
+.contact-title {
+  font-size: 30px;
+  padding: 10px;
+  margin: 20px;
+}
+address {
+  padding: 10px;
+  margin: 20px;
+}
+.copyright {
+  text-align: center;
+  margin: 20px;
 }
