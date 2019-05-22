@@ -1,1 +1,266 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+.everything {
+  max-width: 1000px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.name {
+  font-weight: bold;
+  color: darkblue;
+}
+a,
+.link {
+  color: #428bca;
+}
+.nav-menu a {
+  margin: 10px;
+  padding: 20px;
+}
+.pfp {
+  width: 450px;
+  height: 500px;
+  margin: 20px 0;
+}
+.name {
+  font-size: 50px;
+  padding: 0 0 10px 5px;
+}
+.name-sub {
+  font-size: 20px;
+  padding-bottom: 50px;
+  border-bottom: 3px solid black;
+}
+.name-text {
+  margin: 10px 0;
+  text-align: center;
+}
+.button {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.slogan {
+  border-bottom: 3px solid black;
+}
+.bio {
+  max-width: 60%;
+}
+.info {
+  margin-left: 100px;
+}
+.body-container {
+  display: flex;
+}
+.bio-title {
+  font-size: 30px;
+  color: maroon;
+  padding: 10px;
+  margin: 20px;
+}
+.bio-text {
+  padding: 10px;
+  margin: 20px;
+}
+.info-title {
+  font-size: 30px;
+  color: maroon;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+}
+.list {
+  text-align: center;
+  padding: 10px;
+}
+.work-title {
+  font-size: 30px;
+  color: maroon;
+  padding: 10px;
+  margin: 20px;
+}
+.work-list {
+  padding: 10px;
+  margin: 20px;
+}
+.contact-title {
+  font-size: 30px;
+  color: maroon;
+  padding: 10px;
+  margin: 20px;
+}
+address {
+  padding: 10px;
+  margin: 20px;
+}
+.copyright {
+  text-align: center;
+  margin: 20px;
+}
+@media (max-width: 500px) {
+  .everything {
+    padding: 5px;
+    margin: 5px;
+  }
+  .pfp {
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+    height: 250px;
+  }
+  .bio {
+    padding: 5px;
+    margin: 5px;
+  }
+  .info {
+    padding: 5px;
+    margin: 5px;
+  }
+  .bio-text {
+    padding: 5px;
+    margin: 5px;
+  }
+  .bio-title {
+    padding: 5px;
+    margin: 5px;
+  }
+  .work {
+    text-align: center;
+  }
+  .end-container {
+    text-align: center;
+  }
+}
